@@ -55,6 +55,7 @@ Marcos Rangel13:12
 - Maior parte pessoa fisica
 
 ### Cadastro
+E:\dev\ws\solutil\tatu_do_bem\lib
 
 - Pessoa fisica pode ser mais simples
 
@@ -74,10 +75,7 @@ Marcos Rangel13:12
 - Chaparia de ferro
 - Balde e bacia
 - Cach
-Jozadaque Sousa13:14
-meu microfone ta meio bugado
-vou tentar trocar aqui
-Daniel Fernandes14:42
+
 Agendamento
   Datas
   Endereço
@@ -97,7 +95,6 @@ Pós Agendamento
   Feedback
     Doador/Coletor
     App
-
 
 Tutorial
 

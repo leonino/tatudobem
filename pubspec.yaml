@@ -37,6 +37,19 @@ dependencies:
   flutter_bloc: ^8.0.1
   equatable: ^2.0.3
 
+  # firebase Suporte
+  firebase_core: ^1.14.1
+  firebase_storage: ^10.2.10
+  firebase_auth: ^3.3.14
+
+  # path provider
+  path_provider: ^2.0.9
+  dio: ^4.0.6
+  gallery_saver: ^2.3.2
+
+  # pick file
+  #file_picker: ^1.13.3
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

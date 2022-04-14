@@ -1,8 +1,8 @@
 import 'package:equatable/equatable.dart';
-import 'package:tatu_do_bem/app/modules/coletor/domain/entity/coletor_entity.dart';
-import 'package:tatu_do_bem/app/modules/material/domain/entity/material_entity.dart';
 
 import '../../../auth/domain/entity/user_entity.dart';
+import '../value_objects/agendamaneto_value_object.dart';
+import '../value_objects/materiais_coleta_value_objects.dart';
 
 class ColetaEntity extends Equatable {
   final String id;
@@ -11,8 +11,8 @@ class ColetaEntity extends Equatable {
   final ColetaStatus status;
   final DateTime createdAt;
   final DateTime updatedAt;
-  final List<Agendamento>? agendamentos;
-  final List<MateriaisColeta>? materiais;
+  final List<Agendamento> agendamentos;
+  final List<MateriaisColeta> materiais;
 
   const ColetaEntity({
     required this.id,
@@ -21,44 +21,12 @@ class ColetaEntity extends Equatable {
     required this.status,
     required this.createdAt,
     required this.updatedAt,
-    this.agendamentos,
-    this.materiais,
+    required this.agendamentos,
+    required this.materiais,
   });
 
   @override
   List<Object?> get props => [id, schedule, user, status, createdAt, updatedAt];
-}
-
-class MateriaisColeta {
-  final String coletaId;
-  final MaterialEntity material;
-  final double quantidade;
-  final double volume;
-  final String unidadeMedida;
-  final String urlImage;
-  MateriaisColeta({
-    required this.coletaId,
-    required this.material,
-    required this.quantidade,
-    required this.volume,
-    required this.unidadeMedida,
-    required this.urlImage,
-  });
-}
-
-class Agendamento {
-  final DateTime data;
-  final ColetorEntity userColetor;
-  final AgendamentoStatus status;
-  final DateTime createdAt;
-  final DateTime updatedAt;
-  Agendamento({
-    required this.data,
-    required this.userColetor,
-    required this.status,
-    required this.createdAt,
-    required this.updatedAt,
-  });
 }
 
 enum ColetaStatus {
@@ -66,12 +34,4 @@ enum ColetaStatus {
   agendada,
   finalizada,
   cancelada,
-}
-
-enum AgendamentoStatus {
-  confirmado,
-  emrota,
-  finalizado,
-  reagendado,
-  cancelado,
 }

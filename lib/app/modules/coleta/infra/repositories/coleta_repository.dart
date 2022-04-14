@@ -1,8 +1,7 @@
-import 'package:tatu_do_bem/app/modules/coleta/domain/entity/coleta_entity.dart';
-import 'package:tatu_do_bem/app/modules/coleta/external/datasouce/i_coleta_datasource.dart';
-import 'package:tatu_do_bem/app/modules/coleta/external/models/coleta_model.dart';
-
-import '../../domain/repositories/i_coleta_repository.dart';
+import '../../domain/entity/coleta_entity.dart';
+import '../../domain/i_repositories/i_coleta_repository.dart';
+import '../i_datasources/i_coleta_datasource.dart';
+import '../models/coleta_model.dart';
 
 class ColetaRepository implements IColetaRepository {
   final IColetaDatasource datasource;

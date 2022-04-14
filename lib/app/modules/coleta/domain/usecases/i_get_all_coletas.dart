@@ -1,8 +1,8 @@
 // ignore: file_names
-import 'package:tatu_do_bem/app/modules/coleta/domain/repositories/i_coleta_repository.dart';
 
 import '../../../core/i_usecases.dart';
 import '../entity/coleta_entity.dart';
+import '../i_repositories/i_coleta_repository.dart';
 
 abstract class IGetAllColetas extends IUsecase {
   @override

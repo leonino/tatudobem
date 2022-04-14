@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "106851233053",
+    "project_id": "tatudobem-463bb",
+    "storage_bucket": "tatudobem-463bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106851233053:android:fa70e962c9dcb48224c5f4",
+        "android_client_info": {
+          "package_name": "com.example.tatu_do_bem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106851233053-97j1ubi8qbdg2pkq3felribhch71po33.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3GUHVVwh_ppobxNmWHNVFd9jWnYQ541Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106851233053-97j1ubi8qbdg2pkq3felribhch71po33.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

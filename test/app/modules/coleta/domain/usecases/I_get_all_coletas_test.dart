@@ -3,7 +3,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:tatu_do_bem/app/modules/coleta/domain/entity/coleta_entity.dart';
-import 'package:tatu_do_bem/app/modules/coleta/domain/repositories/i_coleta_repository.dart';
+import 'package:tatu_do_bem/app/modules/coleta/domain/i_repositories/i_coleta_repository.dart';
 import 'package:tatu_do_bem/app/modules/coleta/domain/usecases/I_get_all_coletas.dart';
 
 class IColetaRepositoryMock extends Mock implements IColetaRepository {}
